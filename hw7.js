@@ -33,5 +33,6 @@ function arrayClone(arr) {
 
 var test = arrayClone(deepArray);
 test[2][1] = 20;
+test[3][1][0] = 'bye';
 console.log(deepArray);
 console.log(test);
