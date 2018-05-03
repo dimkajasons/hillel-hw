@@ -23,14 +23,17 @@ var pizzaPrototype = {
     }
 }
 function makePizza(name, price, ingredients, proto) {
-    var newPizza = {};
-    newPizza.__proto__ = proto;
+    var newPizza = Object.create(proto)
+    
     newPizza.name = name;
     newPizza.price = price;
     newPizza.ingredients = ingredients;
     return newPizza;
 }
 var becon = makePizza('becon', 15, ['tomato', 'becon', 'cheddar', 'pepper'], pizzaPrototype);
+console.log(becon);
+becon.form = 'quoter';
+console.log(becon)
 console.log(becon.getName());
 console.log(becon.getRating());
 console.log(becon.ratingUp(2));
