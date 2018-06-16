@@ -1,0 +1,13 @@
+.squire {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+    border: solid red 2px;
+}
+.field {
+    height: 100px;
+    width: 100px;
+    outline: solid red 1px;
+    background-size: 100px
+}
