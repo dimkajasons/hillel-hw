@@ -1,0 +1,1 @@
+{"version":3,"sources":["es6.js"],"names":["myVar","console","log"],"mappings":";;AAAA,IAAMA,QAAQ,MAAd;;AAEAC,QAAQC,GAAR,CAAYF,KAAZ","file":"es5.js","sourcesContent":["const myVar = 'test';\r\n\r\nconsole.log(myVar);"]}
